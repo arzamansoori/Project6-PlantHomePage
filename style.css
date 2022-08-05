@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "Allerta";
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/allerta/v18/TwMO-IAHRlkbx940YnYXSA.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Abel";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE2V9BPQ.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#navbarMonstera {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  padding: 30px;
+  margin: 12px;
+}
+#navMid {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 70px;
+  align-content: center;
+  font-family: "Allerta";
+  color: rgba(55, 55, 56, 255);
+}
+#navMid div:first-child {
+  border-bottom-style: solid;
+  border-bottom-width: 2.7px;
+  width: fit-content;
+}
+#navEnd {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 35px;
+  align-content: center;
+}
+/* mid part */
+
+#midWhole {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+#midWholePart1 {
+  display: flex;
+  flex-direction: column;
+  padding: 43px;
+  padding-top: 117px;
+}
+#midWholePart11 {
+  font-family: "Allerta";
+  font-weight: lighter;
+  list-style-type: none;
+}
+#midWholePart11 div ul li {
+  list-style-type: none;
+}
+#midWholePart11 div ul li:first-child::marker {
+  content: "⦿ ";
+  color: black;
+}
+#monstera {
+  font-family: "Allerta";
+  font-weight: bold;
+  font-size: 120px;
+  letter-spacing: -9px;
+  position: relative;
+  top: 29px;
+}
+#midWholePart11 div ul li:nth-child(2)::marker {
+  content: "●  ";
+  color: black;
+}
+#midWholePart11 div ul li:nth-child(2) {
+  height: 40px;
+}
+#midWholePart11 div ul li:nth-child(3)::marker {
+  content: "●  ";
+  color: black;
+}
+#midWholePart11 div ul li:nth-child(4)::marker {
+  content: "●  ";
+  color: black;
+}
+#midWholePart11 div ul li:nth-child(3) {
+  color: rgba(110, 110, 113, 255);
+}
+#midWholePart11 div ul li:nth-child(4) {
+  color: rgba(110, 110, 113, 255);
+}
+/* mid Whole Part12 */
+
+#midWholePart12 {
+  padding-top: 65px;
+}
+
+#midWholePart121 {
+  display: flex;
+  background-color: rgb(70, 109, 80);
+  color: white;
+  width: 245px;
+  justify-content: center;
+  height: 61px;
+  align-items: center;
+  border-radius: 30px;
+}
+#midWholePart121 div h1 {
+  padding-right: 15px;
+  font-family: "Allerta";
+  font-weight: lighter;
+  font-size: 33px;
+}
+#midWholePart122 {
+  background-color: rgb(70, 109, 80);
+  align-self: center;
+  height: 23px;
+}
+
+/* midWholePart13 */
+
+#midWholePart13 {
+  padding-top: 170px;
+  display: flex;
+}
+.midWholePart13Parts {
+  display: flex;
+}
+.midWholePart13Parts div h4 {
+  font-family: "Allerta";
+  font-weight: bold;
+  font-size: 19px;
+  padding-top: 6px;
+  padding-left: 10px;
+}
+.text {
+  font-family: "Allerta";
+  font-weight: lighter;
+  font-size: 10px;
+  color: rgba(110, 110, 113, 255);
+  padding-left: 10px;
+}
+#feeding {
+  height: 70px;
+  width: 80px;
+  background-color: white;
+}
+#light {
+  padding-left: 10px;
+  width: 38px;
+  height: 49px;
+}
+#care {
+  padding-left: 10px;
+  width: 51px;
+  height: 51px;
+}
