@@ -4,10 +4,10 @@ Hi, I am *Arza Mansoori*.<br>
 *This project is a part of ***Full Stack Javascript*** course by iNeuron.*
 
 ***Learnings :***<br>
-*I learned about the pseudo elements*
+*I learned more about the pseudo elements and flex.*
 
 ***Time taken :***<br>
-*Took me 2 hours to complete this project.*
+*Took me 6 hours to complete this project.*
 
 [*LiveLink (Netlify)*](https://project6-planthomepage.netlify.app/ "Project 6")
 
